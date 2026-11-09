@@ -27,7 +27,7 @@ PYTHONPATH=src python3 scripts/replay.py
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 
-Replay checks 95 SHA-256 file hashes and recomputes 31 decisions from saved
+Replay checks 90 SHA-256 file hashes and recomputes 31 decisions from saved
 predictions. It does not retrain models or establish measurement authenticity.
 
 For an installed CLI, build and install with the pinned tooling:
@@ -81,7 +81,7 @@ No human approval is recorded. See [the design](docs/design.md) for the formula.
 ## Reproduction
 
 Inputs and policy were frozen at `c2fe489`; model execution used source commit
-`7e2689b7c61fc36ceaf3660f9f44df92388252c8`. The final release adds evidence,
+`2937f6b7efb3ec07f12ab2253d56a5610e3573c8`. The final release adds evidence,
 documentation and CI without changing the measured implementation. Canonical
 model/data/policy identities are in [run.json](evidence/run.json); raw file
 hashes are in [manifest.json](evidence/manifest.json). The runtime is Python
@@ -138,8 +138,8 @@ IID Wilson 95% interval for 0/10 is [0, 0.27753], but these order-invariance
 controls are dependent and are the same effective model. This is a consistency
 check, not an estimate of production false-positive probability.
 
-The recorded experiment took 0.3064 seconds wall time and 0.2775 seconds process
-CPU time, with peak process RSS 23,412,736 bytes. This includes training,
+The recorded experiment took 0.4965 seconds wall time and 0.4056 seconds process
+CPU time, with peak process RSS 25,161,728 bytes. This includes training,
 inference, report writing and hardware metadata queries; it is not isolated
 inference latency. The finish timestamp marks completion of cases, before
 hardware queries; timer readings are taken afterward and before manifest writing.

@@ -144,7 +144,10 @@ def main() -> None:
         str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
         for folder in ["evidence", "data", "src", "scripts"]
         for p in sorted((ROOT / folder).rglob("*"))
-        if p.is_file() and "__pycache__" not in str(p) and p.name != "manifest.json"
+        if p.is_file()
+        and "__pycache__" not in str(p)
+        and not any(part.endswith(".egg-info") for part in p.parts)
+        and p.name != "manifest.json"
     }
     save("manifest.json", manifest)
     print(json.dumps(metadata, indent=2))

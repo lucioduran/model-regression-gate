@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "task_version": "support-intent-v1",
+  "labels": [
+    "billing",
+    "access",
+    "delivery"
+  ],
+  "alpha": 0.05,
+  "min_samples": 50,
+  "slices": {
+    "billing/standard": 0.1,
+    "billing/expanded": 0.1,
+    "access/standard": 0.1,
+    "access/expanded": 0.1,
+    "delivery/standard": 0.1,
+    "delivery/expanded": 0.1
+  },
+  "human_review_required": false
+}

@@ -1,0 +1,65 @@
+{
+  "algorithm": "multinomial-nb-laplace-v1",
+  "counts": {
+    "access": {
+      "charge": 10,
+      "for": 40,
+      "handle": 40,
+      "invoice": 10,
+      "payment": 10,
+      "please": 40,
+      "refund": 10,
+      "request": 40
+    },
+    "billing": {
+      "courier": 10,
+      "for": 40,
+      "handle": 40,
+      "parcel": 10,
+      "please": 40,
+      "request": 40,
+      "shipment": 10,
+      "tracking": 10
+    },
+    "delivery": {
+      "account": 10,
+      "authentication": 10,
+      "for": 40,
+      "handle": 40,
+      "login": 10,
+      "password": 10,
+      "please": 40,
+      "request": 40
+    }
+  },
+  "documents": {
+    "access": 40,
+    "billing": 40,
+    "delivery": 40
+  },
+  "labels": [
+    "access",
+    "billing",
+    "delivery"
+  ],
+  "schema": 1,
+  "training_hash": "dffb23d700b07a371fcbc3fe3c3f44fe32f7f12b7b04d5b775da6e68360d11d8",
+  "vocabulary": [
+    "account",
+    "authentication",
+    "charge",
+    "courier",
+    "for",
+    "handle",
+    "invoice",
+    "login",
+    "parcel",
+    "password",
+    "payment",
+    "please",
+    "refund",
+    "request",
+    "shipment",
+    "tracking"
+  ]
+}

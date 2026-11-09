@@ -1,0 +1,89 @@
+{
+  "contract_errors": [],
+  "decision": "REVIEW_REQUIRED",
+  "hashes": {
+    "candidate": "c2ed56bce542a9861628a44716cb42767a0f1f25a2f759921886fc236839a594",
+    "policy": "de39710848c6cd836c40270087f9fea7ba2c4c6da66e20fe77da19bed81ce886",
+    "reference": "0521552f887a80c3cba7b0a58129556df00e39fe381d3b968e42bb0130422fb6",
+    "tasks": "da4371aba1e10f57944eaeb4f66d18bade2d0850b391a78cc243ce97d212377e"
+  },
+  "human_review_required": false,
+  "schema": 1,
+  "slices": {
+    "access/expanded": {
+      "accuracy_delta": null,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": null,
+      "gains": 0,
+      "losses": 0,
+      "n": 0,
+      "reason": "insufficient_samples",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "access/standard": {
+      "accuracy_delta": null,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": null,
+      "gains": 0,
+      "losses": 0,
+      "n": 0,
+      "reason": "insufficient_samples",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "billing/expanded": {
+      "accuracy_delta": null,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": null,
+      "gains": 0,
+      "losses": 0,
+      "n": 0,
+      "reason": "insufficient_samples",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "billing/standard": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 5,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.6214907336967295,
+        0.6214907336967295
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 5,
+      "reason": "insufficient_samples",
+      "reference_correct": 5,
+      "tolerance": 0.1
+    },
+    "delivery/expanded": {
+      "accuracy_delta": null,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": null,
+      "gains": 0,
+      "losses": 0,
+      "n": 0,
+      "reason": "insufficient_samples",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "delivery/standard": {
+      "accuracy_delta": null,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": null,
+      "gains": 0,
+      "losses": 0,
+      "n": 0,
+      "reason": "insufficient_samples",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    }
+  }
+}

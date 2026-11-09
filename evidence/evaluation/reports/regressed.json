@@ -1,0 +1,104 @@
+{
+  "contract_errors": [],
+  "decision": "FAIL",
+  "hashes": {
+    "candidate": "67ed4924c41bc50eba21ea1aa03027e556eaf05751e4e465432cede213ebc241",
+    "policy": "de39710848c6cd836c40270087f9fea7ba2c4c6da66e20fe77da19bed81ce886",
+    "reference": "75a5d23f407ae538c1be099dce4547ee983dfaaeb1c05fc7455e6413d4edc73b",
+    "tasks": "9f41b5b59e0a179899f54fbc80ef3a0d28fc54d101f04d48a71a26b1b7043949"
+  },
+  "human_review_required": false,
+  "schema": 1,
+  "slices": {
+    "access/expanded": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -1.0,
+        -0.848262863628234
+      ],
+      "gains": 0,
+      "losses": 100,
+      "n": 100,
+      "reason": "supported_regression",
+      "reference_correct": 100,
+      "tolerance": 0.1
+    },
+    "access/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -1.0,
+        -0.848262863628234
+      ],
+      "gains": 0,
+      "losses": 100,
+      "n": 100,
+      "reason": "supported_regression",
+      "reference_correct": 100,
+      "tolerance": 0.1
+    },
+    "billing/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "PASS",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "within_tolerance",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "billing/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -1.0,
+        -0.848262863628234
+      ],
+      "gains": 0,
+      "losses": 100,
+      "n": 100,
+      "reason": "supported_regression",
+      "reference_correct": 100,
+      "tolerance": 0.1
+    },
+    "delivery/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "PASS",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "within_tolerance",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "delivery/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -1.0,
+        -0.848262863628234
+      ],
+      "gains": 0,
+      "losses": 100,
+      "n": 100,
+      "reason": "supported_regression",
+      "reference_correct": 100,
+      "tolerance": 0.1
+    }
+  }
+}

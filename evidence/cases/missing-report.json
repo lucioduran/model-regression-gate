@@ -1,0 +1,8 @@
+{
+  "contract_errors": [
+    "candidate prediction IDs must exactly match tasks"
+  ],
+  "decision": "FAIL",
+  "schema": 1,
+  "slices": {}
+}

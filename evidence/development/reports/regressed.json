@@ -1,0 +1,104 @@
+{
+  "contract_errors": [],
+  "decision": "FAIL",
+  "hashes": {
+    "candidate": "42289c0907441daea2b1ece5ace6649c5e01b759653812e942eff5b6b69d3ec6",
+    "policy": "de39710848c6cd836c40270087f9fea7ba2c4c6da66e20fe77da19bed81ce886",
+    "reference": "b1250aec5210d3a528e6848dbeabf7f06013fad84e0df0a509ee1af3bec24d3a",
+    "tasks": "198d503e2e2e7f43811cef3ebd7d4c5775ad3fa21097ed968bb6ec237af92541"
+  },
+  "human_review_required": false,
+  "schema": 1,
+  "slices": {
+    "access/expanded": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -0.9999999999999999,
+        -0.7179262581718072
+      ],
+      "gains": 0,
+      "losses": 50,
+      "n": 50,
+      "reason": "supported_regression",
+      "reference_correct": 50,
+      "tolerance": 0.1
+    },
+    "access/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -0.9999999999999999,
+        -0.7179262581718072
+      ],
+      "gains": 0,
+      "losses": 50,
+      "n": 50,
+      "reason": "supported_regression",
+      "reference_correct": 50,
+      "tolerance": 0.1
+    },
+    "billing/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.1410368709140963,
+        0.1410368709140963
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 50,
+      "reason": "uncertain_difference",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "billing/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -0.9999999999999999,
+        -0.7179262581718072
+      ],
+      "gains": 0,
+      "losses": 50,
+      "n": 50,
+      "reason": "supported_regression",
+      "reference_correct": 50,
+      "tolerance": 0.1
+    },
+    "delivery/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.1410368709140963,
+        0.1410368709140963
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 50,
+      "reason": "uncertain_difference",
+      "reference_correct": 0,
+      "tolerance": 0.1
+    },
+    "delivery/standard": {
+      "accuracy_delta": -1.0,
+      "candidate_correct": 0,
+      "decision": "FAIL",
+      "difference_interval": [
+        -0.9999999999999999,
+        -0.7179262581718072
+      ],
+      "gains": 0,
+      "losses": 50,
+      "n": 50,
+      "reason": "supported_regression",
+      "reference_correct": 50,
+      "tolerance": 0.1
+    }
+  }
+}

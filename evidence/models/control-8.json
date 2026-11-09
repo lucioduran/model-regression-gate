@@ -1,0 +1,53 @@
+{
+  "algorithm": "multinomial-nb-laplace-v1",
+  "counts": {
+    "access": {
+      "for": 20,
+      "handle": 20,
+      "login": 10,
+      "password": 10,
+      "please": 20,
+      "request": 20
+    },
+    "billing": {
+      "for": 20,
+      "handle": 20,
+      "invoice": 10,
+      "payment": 10,
+      "please": 20,
+      "request": 20
+    },
+    "delivery": {
+      "for": 20,
+      "handle": 20,
+      "parcel": 10,
+      "please": 20,
+      "request": 20,
+      "shipment": 10
+    }
+  },
+  "documents": {
+    "access": 20,
+    "billing": 20,
+    "delivery": 20
+  },
+  "labels": [
+    "access",
+    "billing",
+    "delivery"
+  ],
+  "schema": 1,
+  "training_hash": "fcb1b72d3ec5a551ee55faa534793d3c9ec30c8e71fd9a62f8afd0d288b31d5c",
+  "vocabulary": [
+    "for",
+    "handle",
+    "invoice",
+    "login",
+    "parcel",
+    "password",
+    "payment",
+    "please",
+    "request",
+    "shipment"
+  ]
+}

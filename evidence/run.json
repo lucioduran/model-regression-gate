@@ -1,0 +1,101 @@
+{
+  "code_commit": "7e2689b7c61fc36ceaf3660f9f44df92388252c8",
+  "control_count": 10,
+  "control_false_rejections": 0,
+  "control_limit": "Repeated order-invariance controls are dependent and share one task set. The IID interval is illustrative and not a population error bound.",
+  "control_nonpasses": 0,
+  "cost_limit": "Local CPU only; monetary cost and energy were not measured.",
+  "data_hashes": {
+    "development": "fd58d8e3cc8eb0ca8f9c1f769038cbade613fdcc0e3285fad0476bf17a7be787",
+    "evaluation": "6ee57f6ad753cf3f442a69613ee704a243117910f582f678a5d0f5d51edddc00",
+    "train": "3d1e76e827e317ed628d212950a5512e8ec5046e5b212769bf2f911404299126"
+  },
+  "decisions": {
+    "development": {
+      "baseline": "REVIEW_REQUIRED",
+      "control-0": "REVIEW_REQUIRED",
+      "control-1": "REVIEW_REQUIRED",
+      "control-2": "REVIEW_REQUIRED",
+      "control-3": "REVIEW_REQUIRED",
+      "control-4": "REVIEW_REQUIRED",
+      "control-5": "REVIEW_REQUIRED",
+      "control-6": "REVIEW_REQUIRED",
+      "control-7": "REVIEW_REQUIRED",
+      "control-8": "REVIEW_REQUIRED",
+      "control-9": "REVIEW_REQUIRED",
+      "improved": "REVIEW_REQUIRED",
+      "regressed": "FAIL"
+    },
+    "evaluation": {
+      "baseline": "PASS",
+      "control-0": "PASS",
+      "control-1": "PASS",
+      "control-2": "PASS",
+      "control-3": "PASS",
+      "control-4": "PASS",
+      "control-5": "PASS",
+      "control-6": "PASS",
+      "control-7": "PASS",
+      "control-8": "PASS",
+      "control-9": "PASS",
+      "improved": "PASS",
+      "regressed": "FAIL"
+    },
+    "human-review": "REVIEW_REQUIRED",
+    "insufficient": "REVIEW_REQUIRED",
+    "invalid": "FAIL",
+    "missing": "FAIL",
+    "uncertain": "REVIEW_REQUIRED"
+  },
+  "execution": "single-process, sequential, Python standard library only",
+  "finished_utc": "2026-11-09T20:19:53.162619+00:00",
+  "hardware": "Intel(R) Xeon(R) W-3223 CPU @ 3.50GHz",
+  "illustrative_iid_95pct_wilson": [
+    2.7755575615628914e-17,
+    0.27753279986288915
+  ],
+  "logical_cpus": 16,
+  "machine": "x86_64",
+  "memory_bytes": 51539607552,
+  "model_hashes": {
+    "baseline": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-0": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-1": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-2": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-3": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-4": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-5": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-6": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-7": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-8": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "control-9": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "improved": "84bebb56830f8b1a70db39c4c86c23297a1ed467535830fa582e0906e99c4756",
+    "regressed": "09575911ffba4ee4373080643bf57ec250564821f709fb0269cba85e6c9bcdbc"
+  },
+  "peak_rss_bytes": 23412736,
+  "platform": "macOS-26.7.1-x86_64-i386-64bit-Mach-O",
+  "policy_hash": "de39710848c6cd836c40270087f9fea7ba2c4c6da66e20fe77da19bed81ce886",
+  "process_cpu_seconds": 0.277547,
+  "processor": "i386",
+  "python": "3.15.0",
+  "rss_units": "bytes on macOS; includes interpreter and accumulated experiment state",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "started_utc": "2026-11-09T20:19:52.903690+00:00",
+  "thread_limits": {
+    "MKL_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2"
+  },
+  "wall_seconds": 0.30640854500234127
+}

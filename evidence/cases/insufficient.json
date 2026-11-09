@@ -1,0 +1,81 @@
+{
+  "candidate": {
+    "model_hash": "84bebb56830f8b1a70db39c4c86c23297a1ed467535830fa582e0906e99c4756",
+    "predictions": {
+      "evaluation-billing-standard-000": "billing",
+      "evaluation-billing-standard-001": "billing",
+      "evaluation-billing-standard-002": "billing",
+      "evaluation-billing-standard-003": "billing",
+      "evaluation-billing-standard-004": "billing"
+    },
+    "task_version": "support-intent-v1",
+    "tasks_hash": "da4371aba1e10f57944eaeb4f66d18bade2d0850b391a78cc243ce97d212377e"
+  },
+  "policy": {
+    "alpha": 0.05,
+    "human_review_required": false,
+    "labels": [
+      "billing",
+      "access",
+      "delivery"
+    ],
+    "min_samples": 50,
+    "schema": 1,
+    "slices": {
+      "access/expanded": 0.1,
+      "access/standard": 0.1,
+      "billing/expanded": 0.1,
+      "billing/standard": 0.1,
+      "delivery/expanded": 0.1,
+      "delivery/standard": 0.1
+    },
+    "task_version": "support-intent-v1"
+  },
+  "reference": {
+    "model_hash": "6bc925c54eda88489a3617ffbf9e7b2255b4dab257e751dd256db8489314ee7e",
+    "predictions": {
+      "evaluation-billing-standard-000": "billing",
+      "evaluation-billing-standard-001": "billing",
+      "evaluation-billing-standard-002": "billing",
+      "evaluation-billing-standard-003": "billing",
+      "evaluation-billing-standard-004": "billing"
+    },
+    "task_version": "support-intent-v1",
+    "tasks_hash": "da4371aba1e10f57944eaeb4f66d18bade2d0850b391a78cc243ce97d212377e"
+  },
+  "tasks": {
+    "rows": [
+      {
+        "id": "evaluation-billing-standard-000",
+        "label": "billing",
+        "slice": "billing/standard",
+        "text": "Help me resolve invoice for request 000"
+      },
+      {
+        "id": "evaluation-billing-standard-001",
+        "label": "billing",
+        "slice": "billing/standard",
+        "text": "Help me resolve payment for request 001"
+      },
+      {
+        "id": "evaluation-billing-standard-002",
+        "label": "billing",
+        "slice": "billing/standard",
+        "text": "Help me resolve invoice for request 002"
+      },
+      {
+        "id": "evaluation-billing-standard-003",
+        "label": "billing",
+        "slice": "billing/standard",
+        "text": "Help me resolve payment for request 003"
+      },
+      {
+        "id": "evaluation-billing-standard-004",
+        "label": "billing",
+        "slice": "billing/standard",
+        "text": "Help me resolve invoice for request 004"
+      }
+    ],
+    "task_version": "support-intent-v1"
+  }
+}

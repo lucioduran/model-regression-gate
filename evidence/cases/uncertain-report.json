@@ -1,0 +1,104 @@
+{
+  "contract_errors": [],
+  "decision": "REVIEW_REQUIRED",
+  "hashes": {
+    "candidate": "75a5d23f407ae538c1be099dce4547ee983dfaaeb1c05fc7455e6413d4edc73b",
+    "policy": "d4481ae16cebdb1d003b8d0e28eb0db8e104d3aef59e466c3b6cfb5cad9ea5c0",
+    "reference": "75a5d23f407ae538c1be099dce4547ee983dfaaeb1c05fc7455e6413d4edc73b",
+    "tasks": "9f41b5b59e0a179899f54fbc80ef3a0d28fc54d101f04d48a71a26b1b7043949"
+  },
+  "human_review_required": false,
+  "schema": 1,
+  "slices": {
+    "access/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 100,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 100,
+      "tolerance": 0.0
+    },
+    "access/standard": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 100,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 100,
+      "tolerance": 0.0
+    },
+    "billing/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 0,
+      "tolerance": 0.0
+    },
+    "billing/standard": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 100,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 100,
+      "tolerance": 0.0
+    },
+    "delivery/expanded": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 0,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 0,
+      "tolerance": 0.0
+    },
+    "delivery/standard": {
+      "accuracy_delta": 0.0,
+      "candidate_correct": 100,
+      "decision": "REVIEW_REQUIRED",
+      "difference_interval": [
+        -0.07586856818588301,
+        0.07586856818588301
+      ],
+      "gains": 0,
+      "losses": 0,
+      "n": 100,
+      "reason": "uncertain_difference",
+      "reference_correct": 100,
+      "tolerance": 0.0
+    }
+  }
+}
